@@ -1,0 +1,73 @@
+body{
+    background-color:#e3e5f5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+.card {
+    background-color: #feffff;
+    border-radius: 16px;
+    padding: 32px;
+    text-align: center;
+    width: 360px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.subtitle{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+.subtitle a{
+    text-decoration: none;
+    color: #1500ea;
+
+}
+.subtitle a:hover {
+    text-decoration: underline;
+} 
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+.google-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 2px solid #f0f0f0;
+    cursor: pointer;
+    font-weight: bold;
+    width: 70%;
+    flex: 1;
+}
+.fb-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 2px solid #f0f0f0;
+    cursor: pointer;
+    width: 15%;
+}
+.btn-text{
+    font-size: 14px;
+}
+.google-btn img,
+  .fb-btn img {
+    width: 30px;
+    height: 30px;
+}
